@@ -1,0 +1,57 @@
+@import (reference) '_mixin.less';
+.l_header{
+	height:100px;
+}
+.l_content{
+	height:600px;
+	background: @mian_color;
+	//background: #efefef;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+.l_container{
+	width:1170px;
+	margin:0 auto;
+}
+.l_footer{
+	padding:20px;
+	text-align:center;
+}
+
+.l_logo{
+	height:50px;
+	padding:25px 0;
+	font-size:26px;
+}
+
+.l_flex_content{
+	height:600px;
+	display: -webkit-flex; /* Safari */
+	display: flex;
+	align-items:center;
+	.l_login{
+		//border:1px solid #ddd;
+		width:100%;
+		border-radius: 4px;
+		padding: 16px;
+		.l_title{
+			font-size: 22px;
+			line-height:40px;
+			margin-bottom:16px;
+			text-align:center;
+		}
+	}
+}
+
+
+
+#login .login-form {
+	max-width: 300px;
+	margin: 0 auto;
+}
+#login .login-form-forgot {
+	float: right;
+}
+#login .login-form-button {
+	width: 100%;
+}

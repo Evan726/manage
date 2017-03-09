@@ -1,0 +1,57 @@
+@mian_color: #2090ff;
+@line_color: #dddddd;
+@black: #222;
+@font_color: #555;
+@white:#fff;
+@height_head:50px;
+@bg:#eaecef;
+
+.padding15{
+  padding: 15px;
+}
+.border(@Color:@line_color){
+  border: 1px solid @Color;
+}
+.border-left(@Color:@line_color,@w:1px){
+  border-left: @w solid @Color;
+}
+.border-right(@Color:@line_color,@w:1px){
+  border-right: @w solid @Color;
+}
+.border-top(@Color:@line_color,@w:1px){
+  border-top: @w solid @Color;
+}
+.border-bottom(@Color:@line_color,@w:1px){
+  border-bottom: @w solid @Color;
+}
+//阶段文本
+.text-overflow() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.border-top-radius(@radius) {
+  border-top-right-radius: @radius;
+   border-top-left-radius: @radius;
+}
+.border-right-radius(@radius) {
+  border-bottom-right-radius: @radius;
+  border-top-right-radius: @radius;
+}
+.border-bottom-radius(@radius) {
+  border-bottom-right-radius: @radius;
+   border-bottom-left-radius: @radius;
+}
+.border-left-radius(@radius) {
+  border-bottom-left-radius: @radius;
+     border-top-left-radius: @radius;
+}
+
+
+.pos_a{
+  position: absolute;
+}
+.pos_f{
+  position: fixed;
+}

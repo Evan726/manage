@@ -12,6 +12,16 @@ import {
 import configureStore from './store/configureStore';
 const store = configureStore();
 
+import "antd/lib/style/index.less"
+import "antd/lib/grid/style/index.less"
+import "antd/lib/form/style/index.less";
+import "antd/lib/input/style/index.less";
+import "antd/lib/button/style/index.less";
+
+import "./static/css/_mixin.less";
+import "./static/css/common.less";
+import "./static/css/login.less";
+
 import Login from "./containers/Login";
 
 ReactDOM.render(

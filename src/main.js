@@ -18,11 +18,31 @@ import {
 	hashHistory
 } from 'react-router';
 
-import "antd/dist/antd.less"
-import "./static/css/main.less"
+//import "antd/dist/antd.less"
+import "antd/lib/style/index.less"
+import "antd/lib/grid/style/index.less"
+import "antd/lib/button/style/index.less";
+import "antd/lib/table/style/index.less";
+import "antd/lib/tag/style/index.less";
+import "antd/lib/breadcrumb/style/index.less";
+import "antd/lib/tabs/style/index.less";
+import "antd/lib/pagination/style/index.less";
+import "antd/lib/cascader/style/index.less";
+import "antd/lib/tooltip/style/index.less";
+import "antd/lib/upload/style/index.less";
+import "antd/lib/message/style/index.less";
+
+import "antd/lib/form/style/index.less";
+import "antd/lib/input/style/index.less";
+import "antd/lib/select/style/index.less";
+
+import "./static/css/_mixin.less";
+import "./static/css/common.less";
+import "./static/css/main.less";
+
+
 
 import routes from "./containers/routes";
-
 
 
 ReactDOM.render(
